@@ -1,0 +1,6 @@
+/* чиним галерею на разрешнии > 1516px & < 1816px */
+@media screen and (min-width: 1516px) and (max-width: 1816px) {
+  .gallery__card:last-child {
+    grid-column-start: 5;
+  }
+}

@@ -1,0 +1,30 @@
+.gallery__cards {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  font-size: 0;
+  gap: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery__cards {
+    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    gap: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .gallery__cards {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 14px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .gallery__cards {
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
+  }
+}
