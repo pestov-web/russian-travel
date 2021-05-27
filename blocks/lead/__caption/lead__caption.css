@@ -9,3 +9,21 @@
   padding: 8px 0 0 16px;
   margin: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .lead__caption {
+    padding: 8px 0 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__caption {
+    padding: 8px 0 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__caption {
+    padding-top: 8px;
+  }
+}
