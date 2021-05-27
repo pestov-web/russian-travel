@@ -36,5 +36,7 @@
         min-content,
         max-content
       );
+    padding-top: 80px;
+    column-gap: 40px;
   }
 }

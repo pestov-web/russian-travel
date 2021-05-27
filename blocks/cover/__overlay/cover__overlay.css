@@ -1,0 +1,15 @@
+.cover__overlay {
+  min-width: 320px;
+  min-height: 200px;
+  width: 100%;
+  height: 100%;
+  background: no-repeat url(../../../images/cover/__background.jpg);
+  background-size: cover;
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.3;
+  z-index: 0;
+}
