@@ -1,5 +1,6 @@
 .header__lang-links {
-  align-self: center;
   font-size: 0;
+  display: flex;
+  padding: 0;
 }
 
