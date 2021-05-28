@@ -1,0 +1,47 @@
+.photo {
+    background-image: url(./images/background.jpg);
+    width: 100vw;
+    height: 62.5vw;
+    background-size: cover;
+    background-position: center;
+    padding: 22px 16px 20px 16px;;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.photo::before {
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.photo:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+    .photo {
+        padding-top: 115px;
+        padding-left: 90px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .photo {
+        padding-top: 196px;
+        max-width: 1184px;
+        max-height: 740px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .photo {
+        padding-top: 214px;
+    }
+}
