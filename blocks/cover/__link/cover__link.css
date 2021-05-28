@@ -1,0 +1,5 @@
+.cover__link {
+  background-image: url(../../../images/cover/__background.jpg);
+  background-size: cover;
+  background-position: center;
+}

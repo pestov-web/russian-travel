@@ -1,22 +1,37 @@
 .cover__overlay {
-  min-width: 320px;
-  min-height: 200px;
-  width: 100%;
-  height: 100%;
-  background: no-repeat url(../../../images/cover/__background.jpg);
-  background-size: cover;
-  text-decoration: none;
-  color: #ffffff;
+  padding: 33px 16px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 100%;
+  height: 62.5vw;
+  min-height: 200px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color .5s ease-in-out;
+  background-color: rgba(42, 44, 47, .3);
 }
 
-.cover__overlay::before {
-  content: '';
-  opacity: 0.8;
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, .8);
 }
 
-.cover__overlay:hover::before {
-  opacity: 0.8;
+@media screen and (min-width: 768px) {
+  .cover__overlay {
+    padding: 115px 104px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__overlay {
+    padding: 195px 232px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    padding: 245px 312px;
+    width: calc(100vw - 48px * 2);
+    height: calc(62.5vw - 60px);
+  }
 }
