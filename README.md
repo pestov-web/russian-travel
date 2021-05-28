@@ -16,4 +16,4 @@
 
 ### Пестов Влдимир
 ### Ссылка на сайт
-https://github.com/pestov-web/
+https://pestov-web.github.io
