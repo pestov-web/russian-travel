@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 62.5vw;
   min-height: 200px;
   text-decoration: none;
   color: #fff;
@@ -19,19 +18,20 @@
 @media screen and (min-width: 768px) {
   .cover__overlay {
     padding: 115px 104px;
+    min-height: 480px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover__overlay {
     padding: 195px 232px;
+    min-height: 640px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover__overlay {
     padding: 245px 312px;
-    width: calc(100vw - 48px * 2);
-    height: calc(62.5vw - 60px);
+    min-height: 740px;
   }
 }

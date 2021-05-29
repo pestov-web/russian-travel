@@ -6,10 +6,7 @@
 @media screen and (min-width: 768px) {
   .places__card {
     grid-template-columns: minmax(340px, 1fr) minmax(352px, 1fr);
-    grid-template-rows: minmax(min-content, max-content) minmax(
-        min-content,
-        max-content
-      );
+    grid-template-rows: minmax(min-content, max-content) minmax( min-content, max-content);
     padding-top: 73px;
     column-gap: 28px;
     row-gap: 48px;
@@ -19,10 +16,7 @@
 @media screen and (min-width: 1024px) {
   .places__card {
     grid-template-columns: minmax(440px, 1fr) minmax(456px, 1fr);
-    grid-template-rows: minmax(min-content, max-content) minmax(
-        min-content,
-        max-content
-      );
+    grid-template-rows: minmax(min-content, max-content) minmax( min-content, max-content);
     padding-top: 80px;
     column-gap: 32px;
   }
@@ -31,10 +25,7 @@
 @media screen and (min-width: 1280px) {
   .places__card {
     grid-template-columns: minmax(460px, 1fr) minmax(484px, 1fr);
-    grid-template-rows: minmax(min-content, max-content) minmax(
-        min-content,
-        max-content
-      );
+    grid-template-rows: minmax(min-content, max-content) minmax( min-content, max-content);
     column-gap: 40px;
   }
 }
